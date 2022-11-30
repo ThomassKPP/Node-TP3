@@ -33,7 +33,6 @@ app.get('/tp2', function (req, res) {
                 entry.autodrain();
             }
         });
-<<<<<<< HEAD
     }
     
     if (fs.existsSync('data/StockEtablissementLiensSuccession_utf8.zip')) {
@@ -48,9 +47,8 @@ app.get('/tp2', function (req, res) {
     }
 });
 app.listen(port, function () { return console.log("TP Node est en marche sur ".concat(port, "!")); });
-=======
+
     })
 })
 
 app.listen(port, () => console.log(`TP Node est en marche sur ${port}!`))
->>>>>>> a8baf3cd23df14a8ec43bc086e4ba327e987a4cd
